@@ -65,13 +65,13 @@
 
 a {
   color: #1772d0;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:focus,
 a:hover {
   color: #f09228;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 body {
@@ -162,4 +162,7 @@ div#outline {
   background-color: #fff;
   border-radius: 5px;
   padding: 5px;
+}
+.list-div{
+  padding-left:20px;
 }
