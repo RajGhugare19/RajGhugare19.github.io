@@ -1,204 +1,135 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-  <title>Raj Ghugare</title>
-  <meta name="author" content="Raj Ghugare">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj Ghugare</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div style="width:50%;height: 100%;background-color:white; margin-left: auto; margin-right: auto;">
-  <table
-    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate; margin-right:auto;margin-left:auto">
-    <tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr style="padding:0px;display:flex;align-items: flex-start;">
-                <td  style="padding:2.5%;width:63%;">
-                  <p style="text-align:center">
-                    <name>Raj Ghugare</name>
-                  </p>
-                  <p style="text-align:center">
-                    <a
-                      href="https://scholar.google.com/citations?user=hzxdkrIAAAAJ&hl=en&authuser=1">Google Scholar</a>&nbsp/&nbsp
-                    <a href="https://github.com/RajGhugare19">Github</a>&nbsp/&nbsp
-                    <a href="https://twitter.com/GhugareRaj">Twitter</a>
-                  </p>
-                  <p style="text-align:center;color:#696969">
-                    rg9360@princeton.edu
-                  </p>
-                  <p> I am a PhD student at <a href="https://www.princeton.edu/">Princeton</a>, advised by <a href="https://ben-eysenbach.github.io/">Ben Eysenbach</a>.  
-                    Previously, I spent two years at <a href="https://mila.quebec/en/">Mila</a>. I completed my bachelors from <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi_4fi-lvmEAxWHG9AFHTxPBeQQFnoECBoQAQ&url=https%3A%2F%2Fvnit.ac.in%2F&usg=AOvVaw1VRxKnTbCo4Brm3QMWctx5&opi=89978449">NIT Nagpur</a>. 
-                  </p>
-                  <p>
-                    Broadly, my research goal is to develop simpler and scalable sequential decision making algorithms. I am interested in machine learning and reinforcement learning algorithms. 
-                    I enjoy working on a wide range of topics, some keywords
-                  </p>
-                  <div >  
-                    
-                  <ul>
-                  <li>Long horizon inference using</li>
-                    <ul>
-                      <li>contrastive and non-contrastive representations</li>
-                      <li>generative models</li>
-                    </ul>
+    <div class="container">
 
-                  <li>Characteristics of intelligent reasoning</li>
-                    <ul>
-                      <li>combinatorial / compositional generalization</li>
-                      <li>dynamic programming</li>
-                      <li>abstractions.</li>
-                    </ul>
-                </ul>
-                </div>
+        <header class="profile-section">
 
-                <p >
-                  I support the idea of <a href="https://en.wikipedia.org/wiki/Open_science">open science</a> and make my work open source.
+            <div class="profile-image">
+                <img src="images/raj.jpeg" alt="Raj Ghugare" />
+                <p style="color: gray;">rg9360@princeton.edu</p>
+                <nav>
+                <a href="https://github.com/RajGhugare19"> Github</a>&nbsp/&nbsp&nbsp<a href="https://twitter.com/GhugareRaj"> Twitter</a>
+                </nav>
+            </div>
+            <div class="profile-info">
+                <h1>Raj Ghugare</h1>
+                <p>I am a PhD student at <a href="https://www.princeton.edu/">Princeton</a>, advised by <a href="https://ben-eysenbach.github.io/">Ben Eysenbach</a>. Previously, I spent 1.5 years at <a href="https://mila.quebec/en">Mila</a> and <a href="https://montrealrobotics.ca/">Montreal robotics and AI lab</a>. Before that, I completed my bachelors from <a href="https://vnit.ac.in/">NIT Nagpur</a>. Broadly, my research goal is to develop simpler and scalable AI algorithms. I am interested in machine learning and reinforcement learning. I enjoy working on a wide range of topics, some keywords</p>
+                <ul>
+                    <li>long horizon inference using</li>
+                      <ul>
+                        <li>contrastive and non-contrastive representations</li>
+                        <li>generative models,</li>
+                      </ul>
+  
+                    <li>characteristics of intelligent reasoning</li>
+                      <ul>
+                        <li>combinatorial / compositional generalization</li>
+                        <li>dynamic programming</li>
+                        <li>abstractions.</li>
+                      </ul>
+                  </ul>
+            </div>
+
+        </header>
+        
+        <main>
+            <section class="research">
+                <h2>Research</h2>
+                <p>Please refer to <a href="https://scholar.google.com/citations?user=hzxdkrIAAAAJ&hl=en&authuser=1">Google Scholar</a> for a complete list of my publications.</p>
+                
+                <article class="research-item">
+                    <div class="research-image">
+                        <img src="images/stitching.png" alt="Stitching research visualization" />
+                    </div>
+                    <div class="research-content">
+                        <papertitle>Closing the Gap between TD Learning and Supervised Learning -- A Generalisation Point of View</papertitle> <em style="color:#696969;">[ICLR 2024]</em> <br> 
+                        <authors>
+                            <b>Raj Ghugare</b>,
+                            Matthieu Geist,
+                            Glen Berseth,
+                            Benjamin Eysenbach
+                        </authors>
+                        <p>
+                            <a href="https://arxiv.org/abs/2401.11237">paper</a>,
+                            <a href="https://github.com/RajGhugare19/stitching-is-combinatorial-generalisation">code</a>
+                        </p>
+                        <hr style="height:1px;border:none;color:#e0e0e0;background-color:#e0e0e0;">
+                        <abstract>
+                            This paper explores the link between trajectory stitching and combinatorial generalization, demonstrating significant progress in decision-making algorithms using simpler techniques.
+                        </abstract>
+                    </div>
+                </article>
+
+                <article class="research-item">
+                    <div class="research-image">
+                        <img src="images/chemrl.png" alt="AI generated molecule" />
+                    </div>
+                    <div class="research-content">
+                        <papertitle>Searching for High-Value Molecules Using Reinforcement Learning and Transformers</papertitle> <em style="color:#696969;">[ICLR 2024]</em> <br> 
+                        <authors>
+                            <b>Raj Ghugare</b>,
+                            Santiago Miret,
+                            Adriana Hugessen,
+                            Mariano Phielipp,
+                            Glen Berseth
+                        </authors>
+                        <p>
+                            <a href="https://chemrlformer.github.io/">website</a>,
+                            <a href="https://arxiv.org/abs/2310.02902">paper</a>,
+                            <a href="https://github.com/montrealrobotics/RL4Chem">code</a>
+                        </p>
+                        <hr style="height:1px;border:none;color:#e0e0e0;background-color:#e0e0e0;">
+                        <abstract>
+                            Through extensive experiments spanning across datasets with 100 million molecules and 25+ reward functions, we uncover essential algorithmic choices for
+                            efficient search with RL, and other phenomena like reward hacking of protien docking scores.
+                        </abstract>
+                    </div>
+                </article>
+
+                <article class="research-item">
+                    <div class="research-image">
+                        <img src="images/alm.png" alt="Aligned objective molecule" />
+                    </div>
+                    <div class="research-content">
+                        <papertitle>Simplifying Model-based RL: Learning Representations, Latent-space Models and Policies with One Objective</papertitle> <em style="color:#696969;">[ICLR 2023]</em> <br> 
+                        <authors>
+                            <b>Raj Ghugare</b>,
+                            Homanga Bharadhwaj,
+                            Benjamin Eysenbach,
+                            Sergey Levine,
+                            Ruslan Salakhutdinov
+                        </authors>
+                        <p>
+                            <a href="https://alignedlatentmodels.github.io/">project page</a>,
+                            <a href="https://arxiv.org/abs/2209.08466">paper</a>,
+                            <a href="https://github.com/RajGhugare19/alm">code</a>
+                        </p>
+                        <hr style="height:1px;border:none;color:#e0e0e0;background-color:#e0e0e0;">
+                        <abstract>
+                            We present a joint objective for latent space model based RL which lower bounds the RL objective. 
+                            Maximising this bound jointly with the encoder, model, and the policy boosts sample efficiency, without using 
+                            techniques like ensembles of Q-networks and a high replay ratio.
+                        </abstract>
+                    </div>
+                </article>
+
+                <p style="text-align:center;font-size:12px;color:#696969">
+                    Last updated: September 2024.
                 </p>
 
-                </td>
-                <td  style="padding:2.5%;width:30%;max-width:30%;">
-                  
-                  <a href="images/raj.jpeg"><img style="width:100%;max-width:100%; padding-top:50%;" alt="profile photo"
-                      src="images/raj.jpeg" class="hoverZoomLink"></a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
 
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr>
-                <td style="padding:20px;width:100%;vertical-align:middle">
-                  <heading>Research</heading>
-                  <p>
-                    Please refer <a
-                      href="https://scholar.google.com/citations?user=hzxdkrIAAAAJ&hl=en&authuser=1">google scholar</a>
-                    for a complete list of my publications.
-                  </p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              
-              <tr>
-                <td style="padding-left:40px;width:25%;vertical-align:middle">
-                  <div class="one">
-                    <img src='images/stitching.png' width="150">
-                  </div>
-                </td>
-                
-                <td style="padding:20px;width:75%;vertical-align:middle;color:#696969">
-                  <papertitle>Closing the Gap between TD Learning and Supervised Learning -- A Generalisation Point of View</papertitle> <em>[ICLR 2024]</em>
-                  <br>                  
-                  <authors>
-                  <b>Raj Ghugare</b>,
-                  Matthieu Geist,
-                  Glen Berseth,
-                  Benjamin Eysenbach
-                  </authors>
-                  <br> 
-                  <a href="https://arxiv.org/abs/2401.11237">paper</a>,
-                  <a href="https://github.com/RajGhugare19/stitching-is-combinatorial-generalisation">code</a>
-                  <hr style="height:1px;border:none;color:#e0e0e0;background-color:#e0e0e0;">
-                  <abstract>
-                    What if I told you that there were a combinatorial number of solvable tasks that Decision Transformers like methods overlook? 
-                    Our paper unwraps this by linking trajectory stitching to combinatorial generalization. Although stitching is mostly associated with dynamic programming, we show that significant progress (up to 10x) can be made using much simpler techniques.
-                  </abstract>
-                </td>
-              </tr>
+            </section>
+        </main>
 
-
-              <tr>
-                <td style="padding-left:40px;padding-top:40px;width:25%;vertical-align:middle">
-                  <div class="one">
-                    <img src='images/chemrl.png' width="160" height="110">
-                  </div>
-                </td>
-                
-                <td style="padding:20px;width:75%;vertical-align:middle;color:#696969">
-                  <papertitle>Searching for High-Value Molecules Using Reinforcement Learning and Transformers</papertitle> <em>[ICLR 2024]</em>
-                  <br>                  
-                  <authors>
-                  <b>Raj Ghugare</b>,
-                  Santiago Miret,
-                  Adriana Hugessen,
-                  Mariano Phielipp,
-                  Glen Berseth
-                  </authors>
-                  <br> 
-                  <a href="https://chemrlformer.github.io/">project page</a>,
-                  <a href="https://arxiv.org/abs/2310.02902">paper</a>,
-                  <a href="https://github.com/montrealrobotics/RL4Chem">code</a>
-                  <hr style="height:1px;border:none;color:#e0e0e0;background-color:#e0e0e0;">
-                  <abstract>
-                    Through extensive experiments spanning across datasets with 100 million molecules and 25+ reward functions, we uncover essential algorithmic choices for
-                    efficient search with RL, and other phenomena like reward hacking of protien docking scores.
-                  </abstract>
-                </td>
-              </tr>
-
-              <tr>
-                <td style="padding-left:40px;width:25%;vertical-align:middle">
-                  <div class="one">
-                    <img src='images/alm.png' width="160">
-                  </div>
-                </td>
-                
-                <td style="padding:20px;width:75%;vertical-align:middle;color:#696969">
-                  <papertitle>Simplifying Model-based RL: Learning Representations, Latent-space Models and Policies with One Objective</papertitle> <em>[ICLR 2023]</em>
-                  <br>                  
-                  <authors>
-                  <b>Raj Ghugare</b>,
-                  Homanga Bharadhwaj,
-                  Benjamin Eysenbach,
-                  Sergey Levine,
-                  Ruslan Salakhutdinov
-                  </authors>
-                  <br> 
-                  <a href="https://alignedlatentmodels.github.io/">project page</a>,
-                  <a href="https://arxiv.org/abs/2209.08466">paper</a>,
-                  <a href="https://github.com/RajGhugare19/alm">code</a>
-                  <hr style="height:1px;border:none;color:#e0e0e0;background-color:#e0e0e0;">
-                  <abstract>
-                    We present a joint objective for latent space model based RL which lower bounds the RL objective. 
-                    Maximising this bound jointly with the encoder, model, and the policy boosts sample efficiency, without using 
-                    techniques like ensembles of Q-networks and a high replay ratio.
-                  </abstract>
-                </td>
-              </tr>
-                
-              <table
-                style="border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                <tbody>
-                  <tr>
-                    <td style="padding:20px">
-                      <br>
-                      <p style="text-align:center;font-size:12px;color:#696969">
-                        The code for this website was directly ported from <a style="font-size:12px;" href="https://github.com/jonbarron/jonbarron_website">Jon Barron.</a>
-                      </p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              
-        </td>
-      </tr>
-  </table>
-  </div>
+    </div>
 </body>
-
 </html>
